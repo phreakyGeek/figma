@@ -1,0 +1,159 @@
+body {
+    background-color: #f6f2ff;
+    margin:0px;
+    height:100%;
+}
+.left{
+    float: left;
+    /* background-color: yellow; */
+    /* padding: 150px; */
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 570px;
+}
+.right{
+    float: right;
+    /* background-color: pink; */
+    width: 764px;
+    height: 550px;
+    
+}
+.text {
+    color: #43277c;
+    font-size: 50px;
+    
+    /* font-size: 1.5em; */
+    /* font-weight: bold; */
+    
+    
+}
+.wrap {
+    /* background-color: forestgreen; */
+    padding-top: 40px;
+    padding-left: 15px;
+    height: 130px;
+    /* margin-top: 40px; */
+
+}
+.extraText {
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.forgPass {
+    float:right;
+    padding-right: 20px;
+    color: #553d86;
+}
+.inp {
+    width: 88%;
+    padding: 12px 10px;
+    margin: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+}
+.wrap1 {
+    background-color: #c4c4c4;
+    height: 330px;
+}
+.buttonWrap {
+    /* background-color: gold; */
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 18px;
+
+}
+.loginButton {    
+    background-color: #43277c; /* Green */
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  
+}
+.sq1 {
+    float: right;
+    
+    width: 240px;
+    height: 200px;
+    background-color: #e5e5e5;
+
+}
+.sq2 {
+    float: right;
+    height: 350px;
+    width: 340px;
+    background-color: #43277c;
+    margin-right: -240px;
+    margin-top: 40px;
+}
+.sq3 {
+    float: right;
+    height: 350px;
+    width: 340px;
+    background-color: #e5e5e5;
+    margin-right: -261px;
+    margin-top: 90px;
+}
+
+
+.sq4 {
+    float: right;
+    height: 330px;
+    width: 320px;
+    background-color: #43277c;
+    color: #f6f2ff;
+    margin-right: -253px;
+    margin-top: 140px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 30px;
+    
+}
+.wrap3 {
+    margin-top: 50px;
+}
+.powerText {
+    margin-top: 550px;
+    margin-left: 227px;
+    font-size: 0.94em;
+}
+.anchor {
+    text-decoration: none;
+}
+
+.dashHead {
+    font-size: 40px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    /* padding: ; */
+}
+
+.dashHeadDiv {
+    /* height:150px; */
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    background-color: pink;
+}
+
+.sidebar {
+    background-color: powderblue;
+    float: left;
+    padding: 30px 30px 30px 30px;
+    /* padding-bottom: ; */
+    /* position: absolute; */
+}
+
+.tabs {
+    
+}
