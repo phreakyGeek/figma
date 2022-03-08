@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <link rel="stylesheet" href="mystyle.css">   
+        <script>
+          function myClick() {
+            window.open("./dashboard.html","_self");
+          }
+        </script>
     </head>
 <body class="body">
   <div class="container">
@@ -29,9 +34,9 @@
         <div class="sq1"></div>
         <div class="sq2"></div>
         <div class="sq3"></div>
-        <a class="anchor" href="">
+        <a class="anchor" onClick="myClick()">
           <div class="sq4">
-              <div class="clickable"><h1>WHTS Automation</h1></div>
+              <div class="clickable" ><h1>WHTS Automation</h1></div>
           </div>
         </a>
         <div class="powerText">POWERED BY FLYWHEELS EMBEDDED RESEARCH PVT LTD</div>
