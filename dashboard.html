@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="mystyle.css">   
+        <link rel="stylesheet" href="css/mystyle.css">   
         <script>
             function goToLogin(){
                 window.open("./index.html","_self");
+            }
+            function goToAddEdit(){
+                window.open("./addEdit.html","_self");
             }
         </script>
     </head>
@@ -15,7 +18,7 @@
         <div class="sidebar">
             <div class="tabs" onClick="goToLogin()"><span>LOGIN</span></div>
             <div class="tabs"><span>NEW USER</span></div>
-            <div class="tabs"><span>ADD / EDIT PART NO</span></div>
+            <div class="tabs" onclick="goToAddEdit()"><span>ADD / EDIT PART NO</span></div>
             <div class="tabs"><span>CHANGE PART NO</span></div>
             <div class="tabs"><span>SETUP</span></div>
         </div>
