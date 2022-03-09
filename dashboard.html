@@ -9,6 +9,9 @@
             function goToAddEdit(){
                 window.open("./addEdit.html","_self");
             }
+            function goTonewUser(){
+                window.open("./newUser.html","_self");
+            }
         </script>
     </head>
     <body >
@@ -17,7 +20,7 @@
         </div>
         <div class="sidebar">
             <div class="tabs" onClick="goToLogin()"><span>LOGIN</span></div>
-            <div class="tabs"><span>NEW USER</span></div>
+            <div class="tabs" onClick="goTonewUser()"><span>NEW USER</span></div>
             <div class="tabs" onclick="goToAddEdit()"><span>ADD / EDIT PART NO</span></div>
             <div class="tabs"><span>CHANGE PART NO</span></div>
             <div class="tabs"><span>SETUP</span></div>
