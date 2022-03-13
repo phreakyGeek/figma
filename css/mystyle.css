@@ -33,7 +33,7 @@ body {
     /* background-color: forestgreen; */
     padding-top: 40px;
     padding-left: 15px;
-    height: 130px;
+    /* height: 130px; */
     /* margin-top: 40px; */
 
 }
@@ -276,7 +276,7 @@ body {
     text-align: center;
 }
 .result1 {
-    background-color: #4fb735;
+    background-color: #ffffff;
     margin-left: 2% ;
     color: white;
 }
@@ -452,6 +452,41 @@ body {
 }
 
 /* Page newUser */
+
+.usrpartDrop {
+    background-color: #43277c;
+    color: #fdfdfe;
+    text-align: center;
+    width: 95%;
+    height: 40px;
+    padding: 9px 10px;
+    margin: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+.usrwrap3 {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    border-radius: 9px;
+    border: 1px solid #ccc;
+  }
+.container5 {
+    height: auto;
+}
+.newUserSubmit {
+    border-radius: 3px;
+    background-color: #43277c;
+    width: 95%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fdfdfe;
+    padding: 1.5%;
+    margin-top: 2%;
+}
 @media only screen and (max-width: 1920px) {
     .usrtext {
         color: #43277c;
@@ -473,8 +508,9 @@ body {
         margin-top: 30px;
         padding-left: 30px;
         padding-right: 20px;
-        height: 0px;
-        width: 368px;
+        padding-bottom: 4%;
+        /* height: 0px; */
+        width: 40%;
     }
     .usrright {
         float: right;
