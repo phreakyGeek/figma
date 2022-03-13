@@ -591,3 +591,45 @@ body {
 /* .statusForm {
     background-color: brown;
 } */
+
+/* setup page starts here */
+.configButton , .settingButton {
+    border-radius: 3px;
+    background-color: #43277c;
+    width: 41%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fdfdfe;
+    padding: 1.5%;
+    margin-top: 2%;
+}
+.configButton {
+    margin-right: 6%;
+}
+.centerText {
+    text-align: center;
+}
+.settingForm {
+    display: none;
+}
+.inp3 {
+    width: 67%;
+    padding: 12px 10px;
+    margin: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.configTable td:first-child {
+    text-align: right;
+}
+.configSubmit {
+    border-radius: 3px;
+    background-color: #43277c;
+    width: 88%;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    height: 40px;
+    color: #fdfdfe;
+    margin-top: 20px;
+}
