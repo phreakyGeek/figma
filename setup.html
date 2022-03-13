@@ -2,27 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/mystyle.css"> 
-        <script>
-            function gotoDashboard(){
-                window.open("./dashboard.html","_self")
-            }
-            function configButton(){
-                let configForm = document.getElementById("configForm");
-                let settingForm = document.getElementById("settingForm");
-                let configButton = document.getElementsByClassName("configButton");
-                settingForm.style.display = "none";
-                configForm.style.display = "block";
-                //configButton[0].style.backgroundColor = "white";
-                console.log(configButton[0].style.backgroundColor);
-            }
-            function settingButton(){
-                let configForm = document.getElementById("configForm");
-                let settingForm = document.getElementById("settingForm");
-                let configButton = document.getElementsByClassName("configButton");
-                configForm.style.display = "none";
-                settingForm.style.display = "block";
-            }
-        </script>
+        <script  type="text/javascript" src="js/myScript.js"></script>
     </head>
 <body class="body">
     <div class="addWrapper">
