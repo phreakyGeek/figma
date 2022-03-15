@@ -242,7 +242,7 @@ body {
 
 .content {
     width: 75%;
-    height:400px;
+    height:auto;
     float:left;
     background-color: #fdfdfe;
 }
